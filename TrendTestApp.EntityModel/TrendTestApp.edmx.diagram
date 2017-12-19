@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1a6ccda73bb14f498ef99483c570f42f" Name="Diagram1">
+        <EntityTypeShape EntityType="TrendModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Address_Companies" Width="1.5" PointX="12.75" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Address_Customers" Width="1.5" PointX="12.75" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Address" Width="1.5" PointX="10.5" PointY="60.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.AddressType" Width="1.5" PointX="7.5" PointY="75.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.AspNetRole" Width="1.5" PointX="0.75" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.AspNetUser" Width="1.5" PointX="3" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Catalogue_CompanyCreditInfo" Width="1.5" PointX="3" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CatalogueContact" Width="1.5" PointX="3" PointY="48.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CatalogueImage" Width="1.5" PointX="3" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Catalogue" Width="1.5" PointX="0.75" PointY="51.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Catalogues_Colours" Width="1.5" PointX="6" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CatalogueSurcharge" Width="1.5" PointX="6" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Category" Width="1.5" PointX="6" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CategoryGroup" Width="1.5" PointX="3.75" PointY="76.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CategoryMatchingFeature" Width="1.5" PointX="8.25" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ColourImage" Width="1.5" PointX="6" PointY="102.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Colour" Width="1.5" PointX="3.75" PointY="71.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Company" Width="1.5" PointX="3.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Company_Catalogues" Width="1.5" PointX="3" PointY="68.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CompanyBranding" Width="1.5" PointX="6" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.CompanyCreditInfo" Width="1.5" PointX="3" PointY="57.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.County" Width="1.5" PointX="6.75" PointY="43" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Customer" Width="1.5" PointX="10.5" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DeliveryCharge" Width="1.5" PointX="9" PointY="53.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DeliveryMethod" Width="1.5" PointX="10.5" PointY="78.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Discount" Width="1.5" PointX="8.25" PointY="59.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DoorHang" Width="1.5" PointX="15.75" PointY="76.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DoorOption" Width="1.5" PointX="15.75" PointY="79.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DoorStyle" Width="1.5" PointX="5.25" PointY="80.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DoorStyleImage" Width="1.5" PointX="7.5" PointY="82.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DoorStyleTag" Width="1.5" PointX="7.5" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.DrawerBox" Width="1.5" PointX="10.5" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.FavouriteProduct" Width="1.5" PointX="6" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.GlazedDoorStyle" Width="1.5" PointX="3" PointY="94.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.GlazedDoorStyles_RangeGroups" Width="1.5" PointX="5.25" PointY="99.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.IntroductionRoute" Width="1.5" PointX="3" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Order_Products" Width="1.5" PointX="9.75" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Order_ProductServices" Width="1.5" PointX="15.5" PointY="62.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.OrderAddress" Width="1.5" PointX="9.75" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.OrderQuoteStatu" Width="1.5" PointX="10.5" PointY="84.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Order" Width="1.5" PointX="7.5" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.PaymentMethod" Width="1.5" PointX="5.25" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.PriceGroup" Width="1.5" PointX="3" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Product_Colours" Width="1.5" PointX="14" PointY="54.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Product_SubCategory" Width="1.5" PointX="10.5" PointY="95.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ProductFavourite" Width="1.5" PointX="8.5" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ProductImage" Width="1.5" PointX="6" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ProductPrice" Width="1.5" PointX="8.25" PointY="85.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Product" Width="1.5" PointX="3.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ProductServiceImage" Width="1.5" PointX="13.5" PointY="60" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.ProductService" Width="1.5" PointX="11.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Quote_Colours" Width="1.5" PointX="15" PointY="67.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Quote_DoorStyles" Width="1.5" PointX="15" PointY="73.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Quote_Products" Width="1.5" PointX="18" PointY="72.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Quote_ProductServices" Width="1.5" PointX="18" PointY="61.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.QuoteAddress" Width="1.5" PointX="18" PointY="67.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Quote" Width="1.5" PointX="12.75" PointY="62.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.RangeGroup" Width="1.5" PointX="3" PointY="98.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.RangeGroup_DoorStyle" Width="1.5" PointX="7.5" PointY="90" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.RangeGroup_Tags" Width="1.5" PointX="5.25" PointY="96.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.StationaryTemplate" Width="1.5" PointX="9" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.SubCategory" Width="1.5" PointX="8.25" PointY="94.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.SubCategoryImage" Width="1.5" PointX="10.5" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Tag" Width="1.5" PointX="5.25" PointY="90.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Tenant_TenantSettings" Width="1.5" PointX="6" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.TenantDomain" Width="1.5" PointX="6" PointY="93.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.Tenant" Width="1.5" PointX="3.75" PointY="62.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.TenantSettingCategory" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.TenantSetting" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.TrendUser" Width="1.5" PointX="5.25" PointY="27" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.UserType" Width="1.5" PointX="3" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.VatRate" Width="1.5" PointX="5.25" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.RangeGroup_Group" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrendModel.database_firewall_rules" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="TrendModel.FK_Address_Companies_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Address_Companies_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Address_Customers_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Address_Customers_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Addresses_Counties" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_OrderAddress_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_QuoteAddress_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Addresses" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_OrderAddress_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_QuoteAddress_AddressType" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TrendUsers_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Catalogue_CompanyCreditInfo_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Catalogue_CompanyCreditInfo_CompanyCreditInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CatalogueContacts_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CatalogueImage_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Catalogues_Colours_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CatalogueSurcharges_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Categories_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Company_Categories_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Company_Categories_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CompanyCreditInfo_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DeliveryCharges_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_FavouriteProducts_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_PriceGroup_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductServices_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_RangeGroup_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_StationaryTemplate_Catalogues" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Catalogues_Colours_Colours" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CatalogueSurcharges_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Categories_CategoryGroups" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CategoryMatchingFeatures_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Discounts_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductServices_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_SubCategory_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ColourImage_Colours" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_Colours" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Colours1" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Product_Colours_Colours" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Colours_Colours" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_PrimaryCabinetColour" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CompanyBrandings_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_CompanyCreditInfo_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Customers_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Discounts_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_FavouriteProducts_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductServices_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_StationaryTemplate_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TrendUsers_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DeliveryCharges_Counties" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_DeliveryMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_DeliveryMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_DoorHang" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Products_DoorHang" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_DoorOption" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Products_DoorOption" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DoorStyle_PriceGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DoorStyleImage_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DoorStyleTags_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_DoorStyles_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Products_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_RangeGroup_DoorStyle_DoorStyle" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_DoorStyleTags_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_DrawerBox" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_DrawerBox" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_FavouriteProducts_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_GlazedDoorStyles_RangeGroups_GlazedDoorStyles" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_GlazedDoorStyles_RangeGroups_RangeGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TrendUsers_IntroductionRoutes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_Products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_ProductServices_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Order_ProductServices_ProductServices" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_OrderAddress_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_OrderQuoteStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_OrderQuoteStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_PaymentMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_TrendUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Orders_VatRate" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_PaymentMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductPrice_PriceGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Product_Colours_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Product_SubCategory_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Product_SubCategory_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductFavourites_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductFavourites_TrendUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductImages_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductPrice_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Products_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductServiceImages_ProductServices" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_ProductServices_ProductServices" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_ProductServices_ProductServices" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Colours_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_DoorStyles_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_Products_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quote_ProductServices_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_QuoteAddress_Quotes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_TrendUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Quotes_VatRate" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_RangeGroup_DoorStyle_RangeGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_RangeGroup_Tags_RangeGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_RangeGroup_Tags_Tags" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_SubCategoryImages_SubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Tenant_TenantSettings_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_Tenant_TenantSettings_TenantSettings" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TenantDomains_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TrendUsers_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TenantSettings_TenantSettingCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.FK_TrendUsers_UserTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="TrendModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

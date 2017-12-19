@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{947A14A2-F9C0-4FFD-8404-42565CA0C5AC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TrendTestApp.EntityModel</RootNamespace>
+    <AssemblyName>TrendTestApp.EntityModel</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=4.6.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.6.2\lib\net45\Autofac.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper, Version=6.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.6.2.1\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AddressType.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_Companies.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Address_Customers.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogue.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogueContact.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogueImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CatalogueSurcharge.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogues_Colours.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogue_CompanyCreditInfo.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryGroup.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoryMatchingFeature.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Colour.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ColourImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Company.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyBranding.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyCreditInfo.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompanyCreditInfo_Select_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Company_Catalogues.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="County.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="database_firewall_rules.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryCharge.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeliveryMethod.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Discount.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Discounts_Select_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorHang.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorOption.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorStyle.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorStyleImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorStyleTag.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DoorStyle_Tags_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DrawerBox.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FavouriteProduct.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GlazedDoorStyle.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GlazedDoorStyles_RangeGroups.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Handles_SelectHandleGroups_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Handles_SelectHandles_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="IntroductionRoute.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListToTable_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderAddress.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrderQuoteStatu.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_LastActive_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Orders_Search_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order_Products.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Order_ProductServices.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentMethod.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PriceGroup.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PriceGroups_SelectForDoorStyles_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductFavourite.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductPrice.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductService.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductServiceImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Products_SelectNonCompatibleDoorStyles_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Colours.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_SubCategory.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_SummaryForCatalogue_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Summary_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quote.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteAddress.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteStep1_SelectCatalogue_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QuoteStep2_SelectRange_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes_LastActive_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes_Search_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quote_Colours.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quote_DoorStyles.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quote_Products.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Quote_ProductServices.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup_DoorStyle.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup_Group.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup_Select_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup_Tags.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RangeGroup_TagsSelect_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectNonAvailableProductsForPriceGroup_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StationaryTemplate.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubCategory.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubCategoryImage.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tag.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tags_SelectForCatalogue_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TenantDomain.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TenantSetting.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TenantSettingCategory.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TenantSettings_SelectForTenant_Result.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tenant_TenantSettings.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TrendTestApp.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrendTestApp.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TrendTestApp.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TrendTestApp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrendTestApp.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="TrendTestAppContext.cs" />
+    <Compile Include="TrendUser.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserType.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VatRate.cs">
+      <DependentUpon>TrendTestApp.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <EntityDeploy Include="TrendTestApp.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>TrendTestApp.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="TrendTestApp.edmx.diagram">
+      <DependentUpon>TrendTestApp.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TrendTestApp.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TrendTestApp.edmx</DependentUpon>
+      <LastGenOutput>TrendTestApp.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="TrendTestApp.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>TrendTestApp.edmx</DependentUpon>
+      <LastGenOutput>TrendTestApp.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -68,6 +68,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TrendTestApp.EntityModel\TrendTestApp.EntityModel.csproj">
+      <Project>{947a14a2-f9c0-4ffd-8404-42565ca0c5ac}</Project>
+      <Name>TrendTestApp.EntityModel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TrendTestApp.Models\TrendTestApp.Models.csproj">
       <Project>{053dfe10-5c25-49eb-954e-00c92a5cc544}</Project>
       <Name>TrendTestApp.Models</Name>

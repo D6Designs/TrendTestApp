@@ -42,6 +42,7 @@ namespace TrendTestApp.WinApp
         private void LoadCompanies()
         {
             this.FoundCompany = _companyModelService.SearchByCompanyId(27);
+            
 
            this.AllCompanies = _companyModelService.GetAllCompanies();
 

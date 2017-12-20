@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendTestApp.BusinessServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendTestApp.BusinessServices.Interfaces", "TrendTestApp.BusinessServices.Interfaces\TrendTestApp.BusinessServices.Interfaces.csproj", "{964BD7F4-ADEA-4F97-8C0A-EB2730F48DC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrendTestApp.WebApp", "TrendTestApp.WebApp\TrendTestApp.WebApp.csproj", "{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{964BD7F4-ADEA-4F97-8C0A-EB2730F48DC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{964BD7F4-ADEA-4F97-8C0A-EB2730F48DC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{964BD7F4-ADEA-4F97-8C0A-EB2730F48DC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,5 +108,6 @@ Global
 		{DEA8A38D-7ED5-4831-8170-99C2577E971C} = {2063E00D-E56B-473F-9C55-CF7597EEB7C9}
 		{8A3E502D-BA5F-4FF8-A171-4DD065F9F7EC} = {167A9520-3625-4BC7-BE49-F55FFC84E49C}
 		{964BD7F4-ADEA-4F97-8C0A-EB2730F48DC3} = {2063E00D-E56B-473F-9C55-CF7597EEB7C9}
+		{E0D02B59-4A81-4DA6-9EC0-A96A9685E9BA} = {C4C5B8B6-4D8B-4CAD-9A47-A7BE30DD1B8A}
 	EndGlobalSection
 EndGlobal

@@ -11,11 +11,11 @@ namespace TrendTestApp.Repository
     public class DataContext: IDataContext
     {
 
-        public TrendTestAppContext _dataContext { get; set; }
+        public TrendEntities _dataContext { get; set; }
 
         public DataContext()
         {
-            _dataContext = new TrendTestAppContext();
+            _dataContext = new TrendEntities();
         }
 
     }

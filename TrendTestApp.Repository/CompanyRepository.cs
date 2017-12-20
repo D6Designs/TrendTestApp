@@ -11,13 +11,16 @@ namespace TrendTestApp.Repository
     public class CompanyRepository : GenericRepository<Company>, ICompanyRepository
     {
 
-        public CompanyRepository(IDataContext context)
-            : base(context)
+        public CompanyRepository(IDataContext context) : base(context)
         {
         }
         public Company SearchByCompanyId(int CompanyID)
         {
             return SelectBy(x => x.CompanyId == CompanyID).FirstOrDefault();
+        }
+        public List<Company> GetAllCompanies()
+        {
+            return SelectAll.ToList();
         }
 
 

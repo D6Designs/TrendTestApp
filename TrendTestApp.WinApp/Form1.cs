@@ -20,10 +20,11 @@ namespace TrendTestApp.WinApp
 
         private readonly ICompanyModelService _companyModelService;
 
+        protected BindingSource bsCompanies = new BindingSource();
 
         public Form1(ICompanyModelService companyModelService)
         {
-            this.FoundCompany = _companyModelService.SearchByCompanyId(27);
+        
 
             InitializeComponent();
 
@@ -40,8 +41,17 @@ namespace TrendTestApp.WinApp
 
         private void LoadCompanies()
         {
+            this.FoundCompany = _companyModelService.SearchByCompanyId(27);
 
-            label1.Text = FoundCompany.CompanyName;
+           this.AllCompanies = _companyModelService.GetAllCompanies();
+
+            bsCompanies.DataSource = AllCompanies;
+
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.DataSource = bsCompanies;
+            dataGridView1.ClearSelection();
+
+
         }
     }
 }

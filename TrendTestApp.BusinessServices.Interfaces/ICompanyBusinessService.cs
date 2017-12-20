@@ -12,5 +12,7 @@ namespace TrendTestApp.BusinessServices.Interfaces
 
         Company SearchByCompanyId(int companyID);
 
+        List<Company> GetAllCompanies();
+
     }
 }

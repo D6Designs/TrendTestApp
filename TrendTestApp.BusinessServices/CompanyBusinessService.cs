@@ -25,6 +25,10 @@ namespace TrendTestApp.BusinessServices
         {
             return _companyRepository.SearchByCompanyId(companyID);
         }
+        public List<Company> GetAllCompanies()
+        {
+            return _companyRepository.GetAllCompanies();
+        }
 
     }
 }

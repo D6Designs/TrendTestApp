@@ -8,14 +8,14 @@ using TrendTestApp.Repository.Interfaces;
 
 namespace TrendTestApp.Repository
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class
 
     {
 
         
 
 
-        protected readonly TrendTestAppContext DataContext;
+        protected readonly TrendEntities DataContext;
 
         protected GenericRepository(IDataContext ctx)
         {
@@ -35,8 +35,6 @@ namespace TrendTestApp.Repository
 
         public virtual IQueryable<T> SelectBy(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-
-
             IQueryable<T> query = DataContext.Set<T>().Where(predicate);
             return query;
         }
@@ -54,7 +52,7 @@ namespace TrendTestApp.Repository
 
         public virtual void Save()
         {
-                DataContext.SaveChanges();
+            DataContext.SaveChanges();
         }
 
     }

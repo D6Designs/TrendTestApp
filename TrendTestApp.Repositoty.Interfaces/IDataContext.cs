@@ -9,6 +9,6 @@ namespace TrendTestApp.Repository.Interfaces
 {
     public interface IDataContext
     {
-        TrendTestAppContext _dataContext { get; set; }
+        TrendEntities _dataContext { get; set; }
     }
 }

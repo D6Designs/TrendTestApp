@@ -51,5 +51,23 @@ namespace TrendTestApp.ModelServices
 
             return model;
         }
+
+        public List<CompanyViewModel> GetAllCompanies()
+        {
+            var result = _companyBusinessService.GetAllCompanies();
+
+            List<CompanyViewModel> modelList;
+
+            if (result == null)
+            {
+                modelList = new List<CompanyViewModel>();
+            }
+            else
+            {
+                modelList = _mapper.Map<List<Company>, List<CompanyViewModel>>(result);
+            }
+
+            return modelList;
+        }
     }
 }

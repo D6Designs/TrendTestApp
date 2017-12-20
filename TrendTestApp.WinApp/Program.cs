@@ -21,6 +21,10 @@ namespace TrendTestApp.WinApp
         [STAThread]
         static void Main()
         {
+
+            IoCInit.InitialiseIoC();
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1(IoCInit.GetScope().Resolve<ICompanyModelService>()));

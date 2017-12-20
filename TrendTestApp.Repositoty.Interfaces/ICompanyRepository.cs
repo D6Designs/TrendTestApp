@@ -11,5 +11,7 @@ namespace TrendTestApp.Repository.Interfaces
     public interface ICompanyRepository : IGenericRepository<Company>
     {
         Company SearchByCompanyId(int CompanyID);
+
+        List<Company> GetAllCompanies();
     }
 }

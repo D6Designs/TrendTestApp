@@ -12,5 +12,8 @@ namespace TrendTestApp.ModelServices.Interfaces
 
         CompanyViewModel SearchByCompanyId(int companyID);
 
+
+       List<CompanyViewModel> GetAllCompanies();
+
     }
 }

@@ -371,7 +371,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TrendTestApp.edmx</DependentUpon>
     </Compile>
-    <Compile Include="TrendTestAppContext.cs" />
     <Compile Include="TrendUser.cs">
       <DependentUpon>TrendTestApp.tt</DependentUpon>
     </Compile>
